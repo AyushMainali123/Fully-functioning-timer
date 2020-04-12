@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/d9a3d904c6.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div id="wrapper">
+
+    <!-- Play Pause Layering starts -->
+    
+    <section id="play-pause">
+        <div class="btn-container">
+          <i class="fas fa-play fa-2x" data-play-button></i>
+          <!-- <i class="fas fa-pause fa-2x"></i> -->
+          <!-- <i class="fas fa-check"></i> -->
+        </div>
+    </section>
+
+    <!-- Play Pause Layering ends -->
+
+    <!-- Main Area layering starts -->
+    <section id="main">
+        <input type="text" value="Title1">
+        <div class="timer" data-timer>
+          <input type="tel" id="hour" placeholder="HH" maxlength="2" >
+          <span>:</span>
+          <input type="tel"  id="minute" placeholder="MM" maxlength="2" value="">
+          <span>:</span>
+          <input type="tel" id="second" placeholder="SS" maxlength="2" value="3">
+
+        </div>
+    </section>
+    <!-- Main Area layering ends -->
+
+    <!-- side-featues layring starts -->
+
+    <section id="side-features">
+      <div class="reset">
+        <button data-reset class="hide">Reset</button>
+      </div>
+      <div class="add1">
+        <button data-add-one class="hide">+1</button>
+      </div>
+    </section>
+
+    <!-- side-featues layring ends -->
+
+    <audio src="https://www.fesliyanstudios.com/play-mp3/5328" loop></audio>
+
+  </div>
+    <script src="mainjs.js"></script>
+</body>
+</html>
